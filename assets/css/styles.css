@@ -1,0 +1,60 @@
+body {
+    background-color:#F2F2F1;
+}
+.container.body-container {
+    width:800px;
+    margin:0 auto;
+    background-color:#FFF
+}
+div.play-box {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    padding-bottom: 33.3%;
+}
+div.play-box.rightmost {
+    border-right: 1px solid;
+}
+div.play-box.bottommost {
+    border-bottom: 1px solid;
+}
+div.play-box.circled {
+    background:url(../img/circle.png);
+    background-size:100% 100%;
+}
+div.play-box.crossed {
+    background:url(../img/cross.png);
+    background-size:100% 100%;
+}
+.no-margin-bottom {
+    margin-bottom:0;
+}
+div.with-border-full {
+    border:1px solid black;
+    border-radius:5px;
+    /*height:100%;*/
+}
+p.no-float {
+    float:none;
+}
+div.cover {
+    background-color:#000;
+    opacity:0.6;
+    z-index:999;
+    top:0;
+    left:0;
+}
+.table-centered>tbody>tr>td,
+.table-centered>tbody>tr>th,
+.table-centered>tfoot>tr>th,
+.table-centered>tfoot>tr>th,
+.table-centered>thead>tr>th,
+.table-centered>thead>tr>th {
+    text-align:center;
+}
+@media only screen and (max-device-width:667px) {
+    .container.navbar-container {
+        width:800px;
+        margin:0 auto;
+    }
+}
